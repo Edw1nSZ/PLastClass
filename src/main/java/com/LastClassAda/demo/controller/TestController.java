@@ -10,6 +10,7 @@ public class TestController {
 
     @GetMapping("/hola/{nombre}")
     public String sayHello(@PathVariable String nombre) {
-        return "Hola " + nombre + ", Estas invitado a Karmaland!";
+        return "Hola " + nombre + ", Estas invitado a Karmaland" +
+                "";
     }
 }
